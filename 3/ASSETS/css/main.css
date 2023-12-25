@@ -1,0 +1,257 @@
+header {
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+}
+header nav {
+  width: 90%;
+  margin: auto;
+}
+header nav .collapse ul {
+  width: 100%;
+  justify-content: flex-end;
+}
+header nav .dropdown:hover .dropdown-menu {
+  display: block;
+  background-color: black;
+  opacity: 75%;
+}
+header nav .dropdown:hover .dropdown-menu a {
+  color: black !important;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.navbar-nav .nav-link.active {
+  color: #fff;
+}
+.navbar-nav .nav-link.show {
+  color: #fff;
+}
+
+#dremServer {
+  background-image: url(../../img/slider3.jpg);
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  height: 630px;
+}
+
+#productsAll .productstext {
+  text-align: center;
+}
+#productsAll .productstext .someword {
+  font-size: 30px;
+  font-weight: 800;
+}
+#productsAll #productsBasket {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+#productsAll #productsBasket .box {
+  max-width: 300px;
+}
+#productsAll #productsBasket .box img {
+  max-width: 100%;
+}
+#productsAll #productsBasket .box button {
+  background-color: #a51ef8;
+  color: #fff;
+  border-radius: 30px;
+  border: 2px solid #a51ef8;
+  padding: 5px 20px;
+  font-weight: 600;
+}
+#productsAll #productsBasket .box button:hover {
+  background-color: transparent;
+  color: #a51ef8;
+  transition: 1s;
+}
+
+footer {
+  background-color: #222222;
+}
+footer p {
+  color: #fff;
+}
+footer p span {
+  color: #a51ef8;
+}
+
+header {
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+}
+header nav {
+  width: 90%;
+  margin: auto;
+}
+header nav .collapse ul {
+  width: 100%;
+  justify-content: flex-end;
+}
+header nav .dropdown:hover .dropdown-menu {
+  display: block;
+  background-color: black;
+  opacity: 75%;
+}
+header nav .dropdown:hover .dropdown-menu a {
+  color: black !important;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.navbar-nav .nav-link.active {
+  color: #fff;
+}
+.navbar-nav .nav-link.show {
+  color: #fff;
+}
+
+#dremServer {
+  background-image: url(/ASSETS/img/slider3.jpg);
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+}
+#dremServer .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#dremServer .container .dremServerWord {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 100%;
+}
+#dremServer .container .dremServerWord p {
+  color: #fff;
+  max-width: 100%;
+}
+#dremServer .container .dremServerWord .colorful {
+  font-weight: 700;
+  font-size: 20px;
+}
+#dremServer .container .dremServerWord .experience {
+  font-weight: 900;
+  font-size: 70px;
+}
+#dremServer .container .dremServerWord button {
+  background-color: #fff;
+  color: black;
+  border-radius: 30px;
+  width: 180px;
+  padding: 7px 0px;
+  border: 2px solid #fff;
+  font-weight: 700;
+}
+#dremServer .container .dremServerWord button:hover {
+  background-color: transparent;
+  transition: 1s;
+}
+
+#productsAll .productstext {
+  text-align: center;
+}
+#productsAll .productstext .someword {
+  font-size: 30px;
+  font-weight: 800;
+}
+#productsAll #products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+#productsAll #products .box {
+  max-width: 300px;
+}
+#productsAll #products .box img {
+  max-width: 100%;
+}
+#productsAll #products .box button {
+  background-color: #a51ef8;
+  color: #fff;
+  border-radius: 30px;
+  border: 2px solid #a51ef8;
+  padding: 5px 20px;
+  font-weight: 600;
+}
+#productsAll #products .box button:hover {
+  background-color: transparent;
+  color: #a51ef8;
+  transition: 1s;
+}
+#productsAll .btnproducts button {
+  background-color: #a51ef8;
+  color: #fff;
+  border-radius: 30px;
+  border: 2px solid #a51ef8;
+  padding: 5px 20px;
+  font-weight: 600;
+}
+#productsAll .btnproducts button:hover {
+  background-color: transparent;
+  color: #a51ef8;
+  transition: 1s;
+}
+
+#formServer .container .justDrop {
+  max-width: 100%;
+}
+#formServer .container .justDrop .line {
+  max-width: 100%;
+  font-size: 35px;
+  font-weight: 700;
+}
+#formServer .btnSubmit button {
+  background-color: #a51ef8;
+  color: #fff;
+  border-radius: 30px;
+  width: 180px;
+  padding: 7px 0px;
+  border: 2px solid #a51ef8;
+  font-weight: 700;
+}
+#formServer .btnSubmit button:hover {
+  background-color: transparent;
+  transition: 1s;
+  color: #a51ef8;
+}
+
+footer {
+  background-color: #222222;
+}
+footer p {
+  color: #fff;
+}
+footer p span {
+  color: #a51ef8;
+}
+
+@media only screen and (max-width: 600px) {
+  #dremServer .container .dremServerWord .experience {
+    font-size: 30px;
+  }
+  #dremServer .container .dremServerWord .colorful {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  header nav .navbar-nav {
+    background-color: #a51ef8;
+    border-radius: 10px;
+    padding: 0px 5px;
+  }
+}
